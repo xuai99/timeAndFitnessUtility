@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/Height"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Height"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/Weight"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Weight"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonCal"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:text="@string/Button_text"
+        android:textColor="@android:color/white"
+        android:textColorLink="#FFFAE3"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/Text_calculate"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="85dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/string_output"
+            android:layout_width="390dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BMI_button"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/button_BMI"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/Button_time"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonNoti"
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/button_noti"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/holo_purple"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter you task"
+        android:inputType="textShortMessage"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="380dp"
+        android:layout_height="152dp"
+        android:background="@drawable/spinner_round"
+        android:scaleX="1"
+        android:scaleY="1"
+
+        android:timePickerMode="spinner" />
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/setter_Btn"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round"
+            android:text="@string/set_name"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/Remove_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round"
+            android:text="@string/Cancel_name"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/steps_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round"
+            app:srcCompat="@drawable/ic_directions" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="424dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BMI_button"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/button_BMI"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/Button_time"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonNoti"
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/button_noti"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/view_button"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:text="view"
+            android:background="@drawable/round_purple"
+
+            app:srcCompat="@drawable/ic_view_agenda"></ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>

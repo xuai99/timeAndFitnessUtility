@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AndriodProject2</string>
+    <string name="button_BMI">BMI</string>
+    <string name="button_noti">Notification</string>
+    <string name="Button_time">Time</string>
+    <string name="title_activity_bmi_calculator">bmiCalculator</string>
+
+    <string name="Weight">Enter your Weight in (KG)</string>
+    <string name="Height">Enter your Height in (CM)</string>
+    <string name="Button_text">Calculate</string>
+    <string name="Text_calculate">Your BMI is: </string>
+    <string name="set_name">Set</string>
+    <string name="Cancel_name">Remove</string>
+
+
+    <string name="reset">Reset</string>
+    <string name="milestone">Milestone</string>
+    <string name="startValue">0</string>
+    <string name="meter">meter</string>
+    <string name="Pedo_meter">Pedometer</string>
+    <string name="Databased_value">Number of Steps Recorded</string>
+    <string name="Back_button">Back</string>
+
+</resources>

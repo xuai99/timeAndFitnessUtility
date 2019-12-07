@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_red_light"
+    tools:context=".MainActivity">
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:textColor="@android:color/white"
+        android:textSize="70sp"></DigitalClock>
+
+    <TextView
+        android:id="@+id/timeZone_display"
+        android:layout_width="264dp"
+        android:layout_height="78dp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00:00"
+        android:textColor="@android:color/white"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_play_button"
+            android:text="start" />
+
+        <ImageButton
+            android:id="@+id/button_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_pause_button"
+            android:text="Pause" />
+
+        <ImageButton
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_stop_button"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/BMI_button"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/button_BMI"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/Button_time"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonNoti"
+            android:layout_width="151dp"
+            android:layout_height="61dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/button_noti"
+            android:textColor="@android:color/white"
+            android:textColorLink="#FFFAE3"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>
