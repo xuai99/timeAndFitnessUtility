@@ -5,3 +5,4 @@
 
 #anyone can refer my code, if you want. 
 
+simple stopwatch and Pedometer app to track user walking distance. 
